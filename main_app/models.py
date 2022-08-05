@@ -9,7 +9,6 @@ MEALS = (
   ('D', 'Dinner')
 )
 
-# Create your models here.
 class Toy(models.Model):
   name = models.CharField(max_length=50)
   color = models.CharField(max_length=20)

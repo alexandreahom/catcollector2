@@ -9,7 +9,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Cat, Toy
 from .forms import FeedingForm
 
-# Create your views here.
+
 class Home(LoginView):
   template_name = 'home.html'
 
